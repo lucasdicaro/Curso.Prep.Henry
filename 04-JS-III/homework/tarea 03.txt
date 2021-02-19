@@ -1,0 +1,5 @@
+Definiciones:
+ARRAYS (MATRICES O ARREGLOS): Las arrays, tambien conocidas como matrices o arreglos consisten en una lista 
+o coleccion de elementos ordenados seguun su posicion, comenzando siempre desde el indice 0. Las arrays buscan apuntar a una 
+coleccion de datos usando una sola variabe. Para utilizarl declaro la variable, y la establezco entre [] y los separo con , 
+en su interior.
