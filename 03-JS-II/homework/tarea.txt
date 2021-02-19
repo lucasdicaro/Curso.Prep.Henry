@@ -1,0 +1,8 @@
+Definiciones: 
+`for` : Es utilizado en javascript como una expresion de bucle incorporada, que cuenta con una sintaxis unica.
+Introduciendo una variable + expresion condicional + incremento de variable, 
+logro una funcion repetitiva hasta que sea false. Es utilizado para tareas repetitivas.
+`&&`: Es un operador logico que combina dos expresiones de igualdad y pregunta si alguna de ellas, ambas o ninguna es true, 
+significa: ¨Y¨ o ¨AND¨ 
+ `||`: Es un operador logico que determina si una es true o false si ambas son falsas, significa: ¨O¨o ¨OR¨.
+  `!`: Es un operador logico y es el valor booleano opuesto a lo que se le pasa, significa: ¨NOT¨ o ¨NO¨.  

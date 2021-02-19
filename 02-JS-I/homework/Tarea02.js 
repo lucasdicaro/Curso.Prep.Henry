@@ -1,0 +1,11 @@
+Definiciones:
+variables: Una variable es una forma de poder almacenar algo para poder utilizarlo mas tarde
+strings: Los strings o cadenas son bloques de texto que se encuadran entre comillas, tambien llamados hilos de caracteres '' 
+funciones: son objetos invocables que aceptan argumentos y pueden posiblemente devolverme otro objeto, 
+sirven para agrupar codigos que voy a usar muchas veces ´´
+argumentos: Son valores con el objetivo de especificar que voy a enviar por ejemplo: (edad) (nombre), etc
+Return: Consiste en lo que quiero que la funcion me devuelva, es decir una declaracion de retorno
+IF: Consiste en una palabra clave con el objetivo de verificar si algo es verdadero siendo asi un operador de 
+comparacion, ejemplo; es V o F
+Valores booleanos: Son los valores posibles para significar V o F, tambien alimenta el codigo binario y el 
+nucleo de las computadoras.
