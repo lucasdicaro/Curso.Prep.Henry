@@ -19,7 +19,7 @@ function mayoriaDeEdad(edad) {
   //Determinar si la persona según su edad puede ingresar a un evento.
   //Si tiene 18 años ó más, devolver --> "Allowed"
   //Si es menor, devolver --> "Not allowed"
-  if (edad >=  18 ) {   
+  if (edad  >= 18 ) {   
   return 'Allowed';
 }
   return 'Not allowed';
@@ -32,7 +32,7 @@ function conection(status) {
   //De lo contrario, presumimos que el usuario está "Offline"
   //Devolver el estado de conexión de usuario en cada uno de los casos.
 if (status === 1 ){
- return 'online';
+ return 'Online';
 }
 if (status === 2 ){
  return 'Away'; 
@@ -134,6 +134,7 @@ function fizzBuzz(numero) {
      if (numero % 5 === 0 ) {
       return 'buzz';
      }
+     return numero;
 }
 function operadoresLogicos(num1, num2, num3) {
   //La función recibe tres números distintos. 
@@ -142,19 +143,21 @@ function operadoresLogicos(num1, num2, num3) {
   //Si num3 es más grande que num1 y num2, aumentar su valor en 1 y retornar el nuevo valor.
   //0 no es ni positivo ni negativo. Si alguno de los argumentos es 0, retornar "Error".
   //Si no se cumplen ninguna de las condiciones anteriores, retornar false. 
-  if ((num1 === 0 ) || (num2 === 0) || (num3 === 0)) {
-    return 'Error';
-  }
-  if ((num1 > num2) && (num1 > num3) && (num1 > 0 )) {
-    return 'Número 1 es mayor y positivo';
-    }
-  if ((num1 < 0 ) || (num2 < 0) || (num3 < 0 )){  
+  if((num1 < 0) || (num2 < 0) || (num3 < 0 )) {  
     return 'Hay negativos';
   }
- if ((num3 > num1) && (num3 > num2)) {
-   return num3+1;
+  else if((num1 === 0 ) || (num2 === 0) || (num3 === 0)) {
+    return 'Error';
+  }
+  else if((num1 > num2) && (num1 > num3) && (num1 > 0 )) {
+    return 'Número 1 es mayor y positivo';
+    }
+ else if((num3 > num1) && (num3 > num2)) {
+   return num3 + 1;
 }
+else {
    return false;
+}
 }
  
 function esPrimo(numero) {
@@ -185,7 +188,7 @@ function tablaDelSeis(){
 function tieneTresDigitos(numero){
   //Leer un número entero y retornar true si tiene 3 dígitos. Caso contrario, retorna false.
   //Escribe tu código aquí
-  if (numero === .length3 ) {
+  if (numero === length3 ) {
     return true;
   }
    return false;
