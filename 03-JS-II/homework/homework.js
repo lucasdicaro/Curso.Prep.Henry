@@ -9,11 +9,10 @@ function obtenerMayor(x, y) {
   
    return x; 
 }
-if (x < y ){
+if (x < y ) {
   return y; 
 }
    return y; 
-
 }
 
 function mayoriaDeEdad(edad) {
@@ -38,7 +37,7 @@ if (status === 1 ){
 if (status === 2 ){
  return 'Away'; 
 }
- return 'offline';
+ return 'Offline';
 }
 
 function saludo(idioma) {
@@ -143,21 +142,21 @@ function operadoresLogicos(num1, num2, num3) {
   //Si num3 es más grande que num1 y num2, aumentar su valor en 1 y retornar el nuevo valor.
   //0 no es ni positivo ni negativo. Si alguno de los argumentos es 0, retornar "Error".
   //Si no se cumplen ninguna de las condiciones anteriores, retornar false. 
-  
-  if (num1 > num2 && num1 > num3 && num1 > 0 ) {
-    return 'Número 1 es mayor y positivo';
-    }
-    if (num1 === 0 && num2 === 0 && num3 === 0) {
+  if ((num1 === 0 ) || (num2 === 0) || (num3 === 0)) {
     return 'Error';
   }
-  if (num1 > num2 || num1 > num3 || num1 > 0 ){  
+  if ((num1 > num2) && (num1 > num3) && (num1 > 0 )) {
+    return 'Número 1 es mayor y positivo';
+    }
+  if ((num1 < 0 ) || (num2 < 0) || (num3 < 0 )){  
     return 'Hay negativos';
   }
- if (num3; num3 > num1 && num3 > num2; num3 + 1 ){
-  return false;
+ if ((num3 > num1) && (num3 > num2)) {
+   return num3+1;
 }
+   return false;
 }
-
+ 
 function esPrimo(numero) {
   // Devuelve "true" si "numero" es primo
   // De lo contrario devuelve "falso"
@@ -166,14 +165,14 @@ function esPrimo(numero) {
   // Nota: Los números 0 y 1 NO son considerados números primos
 }
 
-function esVerdadero(valor){ PORQUE 1 ES VALOR TRUE NO??
+function esVerdadero(valor){ 
   //Escribe una función que reciba un valor booleano y retorne “Soy verdadero” 
   //si su valor es true y “Soy falso” si su valor es false.
   //Escribe tu código aquí 
-  if (valor === 1 ) {
-    return 'soy verdadero'
+  if (valor === true ) {
+    return 'Soy verdadero'
   }
-  return 'soy falso'
+  return 'Soy falso'
 
 }
 
@@ -181,8 +180,6 @@ function tablaDelSeis(){
   //Escribe una función que muestre la tabla de multiplicar del 6 (del 0 al 60).
   //La función devuelve un array con los resultados de la tabla de multiplicar del 6 en orden creciente.
   //Escribe tu código aquí   
-  for (var x = 6 * 0;  x <= 60;  x )
-  
 }
 
 function tieneTresDigitos(numero){
@@ -199,9 +196,12 @@ function doWhile(numero) {
   //Implementar una función tal que vaya aumentando el valor recibido en 5 hasta un límite de 8 veces
   //Retornar el valor final.
   //Usar el bucle do ... while.
-  do { numero * 5 
-    
-  } while (finally 8 TimeRanges); ?????????? hasta 8 veces
+ var bandera = 0; 
+ do { numero = numero+5; 
+    bandera = bandera+1;
+ }
+ while (bandera < 8 );
+ return numero;
 }
 
 

@@ -82,10 +82,10 @@ function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
   // De lo contrario, devuelve "false"
   // Tu código:
-if (num > 90 ) {
-return false;
-}
+if (num < 90 ) {
 return true;
+}
+return false;
 }
 
 function mayorQueCincuenta(num) {
@@ -167,10 +167,10 @@ function esPositivo(numero) {
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
   if (numero > 0) {
-    return 'es positivo';
+    return 'Es positivo';
 } 
 if (numero < 0) {
-  return 'es negativo';
+  return 'Es negativo';
 } 
   if (numero === 0 ){ 
   return false;
@@ -195,7 +195,7 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  return 'hola' + nombre + '!'; 
+  return 'Hola ' + nombre + '!'; 
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
