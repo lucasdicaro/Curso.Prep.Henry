@@ -1,0 +1,12 @@
+Definiciones: 
+Objetos: Consisten en una coleccion de propiedades y cuentan con una asociacion entre nombre o clave y un valor, 
+contienen mucha informacion sobre una sola cosa. La clave es el identificador y El valor es lo que queremos 
+guardar en esas cosas (clave). Por ultimo pueden tener tambien muchos pares de 'clave:valor' separados por una coma.
+Propiedades: Los elementos de los datos se denominan propiedades, los objetos son una coleccion de estos.
+Metodos: Son las funciones guardadas en un objeto podemos llamarlo mediante la notacion de puntos y parentesis finales.
+Bucles For..in: Dado que los objetos no contienen indices numericos javascript cuenta con un segundo tipo de bucle for integrado 
+llamado: 'for.. in loop': declaro la variable entre parentesis la palabra clave in y el nombre del objeto.
+Notacion de puntos y Notacion de corchetes: Mediante la notacion de puntos podemos llamar al nombre del objeto, 
+mediante un punto y el nombre de clave. Por otro lado la notacion de corchetes consiste en llamar a un elemento en una matriz 
+debemos llamarla entre comillas, utilizando una cadena o numero o una variable que apunte a una cadena o numero.
+

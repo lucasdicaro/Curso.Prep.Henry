@@ -1,0 +1,7 @@
+Definiciones: 
+Prototype: Es una forma uncia de establecer un metodo a la vez y dar acceso a cada objeto de esa clase a esos metodos. 
+Todos los objetos cuentan con una referencia a otro objeto llamado proto (__proto__). Por ultimo tienen acceso a la palabra 
+clave 'THIS'. (tener en cuenta que siempre apunta al objeto de la izquierda).
+_CONSTRUCTORS_: Funcion constructora que se escribe con mayuscula y son utiles para crear muchos objetos que comparten
+alguna de las mismas propiedades y metodos. Es decir consiste en una plantilla para la creacion de objetos de datos
+segun modelo predefinido, de esta manera evito copiar la plantilla/objeto una y otra vez.

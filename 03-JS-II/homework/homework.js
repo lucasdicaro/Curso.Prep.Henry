@@ -47,16 +47,15 @@ function saludo(idioma) {
   // Si "idioma" es "ingles", devuelve "Hello!"
   // Si "idioma" no es ninguno de los anteiores o es `undefined` devuelve "Hola!"
   // Tu código:
-if ('idioma' === 'aleman') {
+if (idioma === 'aleman') {
   return 'Guten Tag!'
-}
-if ('idioma' === 'mandarin') {
+} else if  (idioma === 'mandarin') {
   return 'Ni Hao!'
-}
-if ('idioma' === 'ingles') {
+} else if (idioma === 'ingles') {
   return 'Hello!'
+} else {
+return 'Hola!'
 }
-  return 'Hola!'
 }
 
 
@@ -70,19 +69,15 @@ function colors(color) {
   //Usar el statement Switch.
   switch (color) { 
     case 'blue':
-      console.log ('This is blue')
-      break;
+      return ('This is blue')
       case 'red':
-      console.log ('This is red')
-      break;
+      return ('This is red')
       case 'green':
-        console.log ('This is green')
-        break;
+        return ('This is green')
         case 'orange':
-          console.log ('This is orange')
-          break;
+        return ('This is orange')
     default:
-    console.log ('Color not found')
+    return ('Color not found')
   }
 }
 
@@ -166,6 +161,16 @@ function esPrimo(numero) {
   // Pista: un número primo solo es divisible por sí mismo y por 1
   // Pista 2: Puedes resolverlo usando un bucle `for`
   // Nota: Los números 0 y 1 NO son considerados números primos
+  var contador = 0
+  for(var i = 1; i < numero+1; i++){
+    if(numero % i === 0) {
+      contador++
+    }
+  }
+  if (contador === 2) {
+    return true;
+  }
+  return false;
 }
 
 function esVerdadero(valor){ 
@@ -183,12 +188,17 @@ function tablaDelSeis(){
   //Escribe una función que muestre la tabla de multiplicar del 6 (del 0 al 60).
   //La función devuelve un array con los resultados de la tabla de multiplicar del 6 en orden creciente.
   //Escribe tu código aquí   
+var nuevoar = []
+for (var i = 0; i < 11; i++) {
+ nuevoar.push(i*6)
+}
+return nuevoar;
 }
 
 function tieneTresDigitos(numero){
   //Leer un número entero y retornar true si tiene 3 dígitos. Caso contrario, retorna false.
   //Escribe tu código aquí
-  if (numero === length3 ) {
+  if (numero > 99 && numero <= 999) {
     return true;
   }
    return false;
